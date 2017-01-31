@@ -6,3 +6,10 @@ To collaborate with others!
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 So that you know what changes are happening when. Sometimes you'll be working on a branch and need the base master file to stay the same while you work on the new branch. 
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+- Forks create a new repository in your own GitHub. Which includes all of the commits in that original repositories. You are basically creating a new version, that's based on the repository you forked.
+- Clones... this copies a repository from GitHub to your local branch.
+- Branches you would use when you are a collaborator and therefore have permission to make changes to a repository. You can branch off to add a new feature that you hope to be a part of the master branch or included in the official production code.
