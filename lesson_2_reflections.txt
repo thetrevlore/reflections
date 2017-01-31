@@ -6,3 +6,30 @@ It creates a new repository so that you can store a history of versions/commits.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the repository holds commits. The staging area holds files that are about to be committed. The working directory holds the actual current files.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+because it shows what has been modified and you can decide whether that constitutes a logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+trying new features, giving it different difficulties or languages or anything like that. So you could pursue a new idea without jacking up your main official branch. Keep a working official version even while you work on a non-working other version.
+
+
+How do the diagrams help you visualize the branch structure?
+
+By showing what commits belong to what previous commit.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it combines all commits between the two into one branch. To show that it's making two separate branches into one master branch.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatically will save you a whole ton of time if it's done right. But manually makes it so you know exactly what you're changing. Although, you still have to watch out for human error on that...
+
+
